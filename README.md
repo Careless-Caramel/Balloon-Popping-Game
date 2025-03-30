@@ -37,6 +37,9 @@ Pop balloons, earn points, and try to beat your **high score**! 🎉
 - Introduce **timer mode** ⏳  
 - Implement **difficulty levels** (faster balloons, more obstacles)  
 
+## 🌍 Live Demo
+Check out the published game here: [Balloon Pop Adventure](https://Careless-Caramel.github.io/Balloon-Popping-Game/)  
+
 ---
 
-💙 **Enjoy playing Balloon Pop Adventure!** 🎈🎮  
+💙 **Enjoy playing Balloon Pop Adventure!** 🎈🎮
