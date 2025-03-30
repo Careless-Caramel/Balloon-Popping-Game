@@ -118,8 +118,8 @@
     function createBalloon() {
         const balloon = document.createElement('img');
         let isSpecialBalloon = Math.random() > 0.5;
-        balloon.src = isSpecialBalloon ? 'balloon-easter-svgrepo-com.svg' 
-                                       : 'balloon-svgrepo-com.svg';
+        balloon.src = isSpecialBalloon ? 'assets/balloon-easter-svgrepo-com.svg' 
+                                       : 'assets/balloon-svgrepo-com.svg';
         balloon.className = 'balloon';
         balloon.style.width = Math.random() * 30 + 50 + 'px';
         balloon.style.left = Math.random() * (gameContainer.clientWidth - 50) + 'px';
@@ -157,10 +157,10 @@
         cloud.className = 'cloud';
 
         const cloudImages = [
-            'sky-cloud-svgrepo-com.svg',
-            'clouds-svgrepo-com.svg',
-            'clouds-cloud-svgrepo-com.svg',
-            'computing-cloud-cloud-svgrepo-com.svg'
+            'assets/sky-cloud-svgrepo-com.svg',
+            'assets/clouds-svgrepo-com.svg',
+            'assets/clouds-cloud-svgrepo-com.svg',
+            'assets/computing-cloud-cloud-svgrepo-com.svg'
         ];
         cloud.src = cloudImages[Math.floor(Math.random() * cloudImages.length)];
 
